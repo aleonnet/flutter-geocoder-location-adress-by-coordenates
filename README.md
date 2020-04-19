@@ -1,16 +1,35 @@
-# geocoder_api_getting_adress_by_googlemaps_coordinates
+# Localizador de Endereços com GoogleMaps e Geocoder
+###### geocoder_api_getting_adress_by_googlemaps_coordinates
+--------
 
-A new Flutter project.
+(POC) ou Conceito de projeto simples feito em [Flutter](https://flutter.dev) para localizar endereços usando coordenadas de latitude e longitude. 
 
-## Getting Started
+## Começando a usar
 
-This project is a starting point for a Flutter application.
+#### Primeiro é necessário uma [API-KEY](https://developers.google.com/maps/documentation/android-sdk/get-api-key) do Google maps
 
-A few resources to get you started if this is your first Flutter project:
+- Para usar a api do google maps é necessária um [API-KEY](https://developers.google.com/maps/documentation/android-sdk/get-api-key) fornecida pela google em sua conta de desenvolvedor sdk android.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+#### Tendo criado sua api key do google maps
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Cole a chave fornecida em seu projeto no lugar indicado abaixo
+dentro do arquivo .xml que fica localizado em android/app/src/main/AndroidManifest.xml
+
+```bash
+
+|_ android
+  |_ app
+    |_ src
+      |_ main
+        |_ AndroidManifest.xml
+```
+```xml
+<manifest ...>
+   <aplication ...>
+        <meta-data 
+            android:name="com.google.android.geo.API_KEY"
+            android:value="YOUR-API-KEY-VALUE-HERE"/>
+   <!--Fica dentro da tag aplication-->
+   </aplication>
+</manifest>
+```
