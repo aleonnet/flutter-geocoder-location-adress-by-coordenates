@@ -2,7 +2,7 @@
 ###### geocoder_api_getting_adress_by_googlemaps_coordinates
 --------
 
-(POC) ou Conceito de projeto simples feito em [Flutter](https://flutter.dev) para localizar endereços usando coordenadas de latitude e longitude. 
+(POC) ou Conceito de projeto simples feito em [Flutter](https://flutter.dev) para localizar endereços usando coordenadas de latitude e longitude. Para visualizar as dependencias usadas veja o [pubspec.yaml](/pubspec.yaml).
 
 ## Começando a usar
 
@@ -35,14 +35,6 @@ dentro do arquivo .xml que fica localizado em android/app/src/main/AndroidManife
 ```
 ## Funcionamento da aplicação
 
-#### Selecionando uma coordenada no mapa
-
-![](/assets/examples/images/gif1.png)
-
-#### Após selecionar um lugar, é possível observar os possiveis endereços para a coordenada
-
-![](/assets/examples/images/gif2.png)
-
-#### Permissão é necessária para usar a própria localização do dispositivo
-
-![](/assets/examples/images/gif3.png)
+|   Selecionando uma coordenada no mapa   |  Após selecionar um lugar, é possível observar os possiveis endereços para a coordenada  |    Permissão é necessária para usar a própria localização do dispositivo    |
+|:---:|:---:|:---:|
+| <img src="/assets/examples/images/gif1.gif" width="80%">  | <img src="/assets/examples/images/gif2.gif" width="80%">     | <img src="/assets/examples/images/gif3.gif" width="80%">    |
