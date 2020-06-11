@@ -33,3 +33,16 @@ dentro do arquivo .xml que fica localizado em android/app/src/main/AndroidManife
    </aplication>
 </manifest>
 ```
+## Funcionamento da aplicação
+
+#### Selecionando uma coordenada no mapa
+
+![](/assets/examples/images/gif1.png)
+
+#### Após selecionar um lugar, é possível observar os possiveis endereços para a coordenada
+
+![](/assets/examples/images/gif2.png)
+
+#### Permissão é necessária para usar a própria localização do dispositivo
+
+![](/assets/examples/images/gif3.png)
